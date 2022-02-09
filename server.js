@@ -26,9 +26,23 @@ app.get("/projects", function(req, res){
       {title: 'Ecommerce Demo', description: 'A simple crud ecommerce site made with HTML and CSS.', level:"Advanced",img: require("@/assets/project/guns.png"),linkGit:"https://github.com/TDL2627/advanceCrud",linkLive:"https://guns-2627.netlify.app/"},
      {title: 'Pokemon', description: 'Cards made with data fetched from api, HTML and CSS.', level:"Moderate",img: require("@/assets/project/pokedex.png"),linkGit:"https://github.com/TDL2627/pokedex",linkLive:"https://tdl2627-pokedex.netlify.app/"}
      
-        ]
+     ]
      res.send(projects)
 });
+
+
+app.get("/testimonials", function(req, res){
+    let people=[
+        {name:"Godwin",title:"Head of Curriculum and Learning",pic:require('@/assets/people/Godwin.jpeg'),qoute:" 'Based on the time that I have known Ashley, he will measure up to high organisational expectations.'"},
+         {name:"Jason",title:"Lecturer ",pic:require('@/assets/people/jason-wandrag-nobg-2.png'),qoute: "'Ashley brings a unique energy to my class. He enjoys participating in class activities. It's always great to see him well-behaved in my class. I am excited about Ashley's potential and I can't wait to see how he will grow in the future.'"},
+          {name:"Sibabalo",title:"Web Developer",pic:require('@/assets/people/sibablo.jpg'),qoute:" 'A very creative and resourceful person. A great team player.'"},
+         {name:"Jude",title:"Aspiring Web Developer",pic:require('@/assets/people/Jude3.jpg'),qoute:" 'He knows what is he doing.'"},
+          
+            {name:"Bulela",title:"Aspiring Web Developer",pic:require('@/assets/people/Bulela1.jpg'),qoute:"' He can work well with others.'"},
+             {name:"Kischa",title:"Graphic Designer",pic:require('@/assets/people/Kischa4.jpg'),qoute:"'He is very creative and has a great imagination.'"},
+      ]
+      res.send(people)
+ });
 
 const port = process.env.PORT || 2627;
 app.listen(port, () => {
