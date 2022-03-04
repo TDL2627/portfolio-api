@@ -30,7 +30,8 @@ app.get("/projects", function(req, res){
      {title: 'Movie Download Site', description: 'A site to download movies with no ads made with Javascript, HTML and CSS.', level:"Moderate",img: "movie.png",linkGit:"https://github.com/TDL2627/movies",linkLive:"https://moveees.netlify.app/"},
      {title: 'Fetch From API', description: 'A site that fecthes data from premade APIs made with Javascript, HTML and CSS.', level:"Moderate",img: "fetch.png",linkGit:"https://github.com/TDL2627/fetchAPI",linkLive:"https://tdl2627-api.netlify.app/"},
      {title: 'myMusic', description: 'A web app that streams my music from google drive made with Javascript, HTML and CSS.', level:"Moderate",img: "music.png",linkGit:"https://github.com/TDL2627/musick",linkLive:"https://ourmusic.netlify.app/"},
-     {title: 'BMI calculator', description: 'A web app that calculates your BMI made with Javascript, HTML and CSS.', level:"Moderate",img: "bmi.png",linkGit:"https://github.com/TDL2627/BMI-calculator",linkLive:"https://tdl2627-bmi.netlify.app/"}
+     {title: 'BMI calculator', description: 'A web app that calculates your BMI made with Javascript, HTML and CSS.', level:"Moderate",img: "bmi.png",linkGit:"https://github.com/TDL2627/BMI-calculator",linkLive:"https://tdl2627-bmi.netlify.app/"},
+     {title: 'Nike Point of Sale', description: 'A web app that calculates your BMI made with VueJS, HTML, CSS, Javascript and Mongo DB.', level:"Advanced",img: "pos.png",linkGit:"https://github.com/TDL2627/nike-store",linkLive:"https://point-of-sale-914ac.web.app/"}
 
 
      ]
