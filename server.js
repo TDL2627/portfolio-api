@@ -44,10 +44,10 @@ app.get("/projects", function(req, res){
 app.get("/testimonials", function(req, res){
     let people=[
         {name:"Godwin",title:"Head of Curriculum and Learning",pic:'Godwin.jpeg',qoute:" 'Based on the time that I have known Ashley, he will measure up to high organisational expectations.'"},
-         {name:"Jason",title:"Lecturer ",pic:'jason-wandrag-nobg-2.png',qoute: "'Ashley brings a unique energy to my class. He enjoys participating in class activities. It's always great to see him well-behaved in my class. I am excited about Ashley's potential and I can't wait to see how he will grow in the future.'"},
+        {name:"Alex Sexwale",title:"Senior Web Developer",pic:'Alex.png',qoute:"' Ashley is a rockstar of a developer, he plans and manages projects he works on effectively. He takes the initiative to help his peers and works well in a team. It has been an absolute pleasure mentoring Ashley during the early stages of his long-term coding career.'"},
+        {name:"Jason",title:"Lecturer ",pic:'jason-wandrag-nobg-2.png',qoute: "'Ashley brings a unique energy to my class. He enjoys participating in class activities. It's always great to see him well-behaved in my class. I am excited about Ashley's potential and I can't wait to see how he will grow in the future.'"},
           {name:"Sibabalo",title:"Web Developer",pic:'sibablo.jpg',qoute:" 'A very creative and resourceful person. A great team player.'"},
          {name:"Jude",title:"Aspiring Web Developer",pic:'Jude3.jpg',qoute:" 'He knows what is he doing.'"},
-            {name:"Bulela",title:"Aspiring Web Developer",pic:'Bulela1.jpg',qoute:"' He can work well with others.'"},
              {name:"Kischa",title:"Graphic Designer",pic:'Kischa4.jpg',qoute:"'He is very creative and has a great imagination.'"},
       ]
       res.send(people)
