@@ -4,7 +4,7 @@ const cors = require('cors')
 app.use(cors());
 
 app.get("/", function (req, res) {
-  res.send("This is home page");
+  res.send("This is my portfolio api");
 });
 
 app.get("/projects", function (req, res) {
